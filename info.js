@@ -1,5 +1,4 @@
-var target = document.getElementById("game");
-var info = false;
+var target = document.getElementById("map");
 function openInfo(id, x, y, text) {
   let div = document.createElement("div");
   div.className = "hero";
@@ -12,22 +11,20 @@ function openInfo(id, x, y, text) {
 function destroy(id) {
   let el = document.getElementById(id);
   target.removeChild(el);
-  info = false;
 }
 function info1() {
   setTimeout(
     openInfo,
-    2000,
+    1000,
     "info1",
-    300,
-    -150,
+    400,
+    400,
     "This is simple demo/animation which is using a Mapbox to animate the pin."
   );
   setTimeout(destroy, 8000, "info1");
-  if (!info) return true;
 }
 function info2() {
-  setTimeout(openInfo, 10000, "info2", 100, -150, "Push this button to start demo");
+  setTimeout(openInfo, 10000, "info2", 10, 100, "Push this button to start demo");
   setTimeout(destroy, 18000, "info2");
 }
 function info3() {
