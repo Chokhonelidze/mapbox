@@ -32,3 +32,25 @@ body {
   left:0;
   padding: 10px;
 }
+
+.hero {
+  position:relative;
+  background-color:#659EC7;
+  height:100px;
+  width:200px;
+  padding:5px;
+  border-radius: 10%;
+}
+.hero:after {
+  z-index: -1;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  content:'';
+  width: 0;
+  height: 0;
+  border-top: solid 10px #e15915;
+  border-left: solid 10px transparent;
+  border-right: solid 10px transparent;
+}
