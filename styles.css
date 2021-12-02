@@ -1,4 +1,9 @@
-body { 
+@font-face {
+  font-family: "YujiMai";
+  src: url(YujiMai-Regular.ttf);
+}
+body {
+  font-family:'YujiMai';
   display:grid;
   grid-template-columns: 2fr 4fr 2fr;
   grid-template-rows: 200px 1000px;
