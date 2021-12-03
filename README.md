@@ -1,11 +1,16 @@
-# mapbox
-Mapbox project
-Description
+# Mapbox project
+
+## Description
+
 this project is a small demo that demonstrates how to use and animate software called MapBox.
 you can run animation by clicking the button "show stops".
-Roadmap
-in the future this software can be used to truck pets it will require a GSM connection with an internet GPS module and server to update coordinates.
 
+## Roadmap
+
+In the future this software can be used to truck pets the tracker will require a GSM connection with an internet GPS module and server to update coordinates.
+
+## Dependences 
+MapBox software and API key from MapBox website.
 
 MIT License
 
